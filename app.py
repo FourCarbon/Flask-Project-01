@@ -6,4 +6,6 @@ app = Flask(__name__)
 def index():
   return "Hello FourCarbon! "
 
-app.run()
+app.run(debug=True)
+
+
